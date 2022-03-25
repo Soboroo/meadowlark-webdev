@@ -1,0 +1,23 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node meadowlark.js",
+    "lint": "eslint meadowlark.js lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^13.5.1"
+  }
+}
