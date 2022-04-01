@@ -22,6 +22,10 @@ app.get('/greeting', (req, res) => {
 	})
 });
 
+app.get('/no-layout', (req, res) => {
+	res.render('no-layout', { layout: null });
+});
+
 app.use(handlers.notFound);
 
 app.use(handlers.serverError);
